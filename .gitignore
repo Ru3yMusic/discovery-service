@@ -22,10 +22,11 @@ spring.log
 # ========================
 # IntelliJ IDEA
 # ========================
-.idea/
-*.iml
+.idea/modules.xml
+.idea/misc.xml
 *.iws
 *.ipr
+.idea
 out/
 
 # ========================
