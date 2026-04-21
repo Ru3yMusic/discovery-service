@@ -6,7 +6,7 @@ pipeline {
     buildDiscarder(logRotator(numToKeepStr: '10'))
   }
   parameters {
-    string(name: 'IMAGE_TAG', defaultValue: '', description: 'Tag Docker opcional (ej: obsfix-20260421-01)')
+    string(name: 'IMAGE_TAG', defaultValue: 'obsfix-20260421-01', description: 'Tag Docker')
   }
   environment {
     SONARQUBE_SERVER = 'sonarqube'
