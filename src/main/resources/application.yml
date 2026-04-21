@@ -16,7 +16,7 @@ eureka:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
   server:
     wait-time-in-ms-when-sync-empty: 0
-    # Disable self-preservation in dev — re-enable in production
+    # Disables self-preservation in dev — re-enable in production
     enable-self-preservation: false
     eviction-interval-timer-in-ms: 5000
     renewal-percent-threshold: 0.85
