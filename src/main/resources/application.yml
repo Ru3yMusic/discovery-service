@@ -9,7 +9,7 @@ eureka:
   instance:
     hostname: localhost
   client:
-    # This node does not register itself or fetch registry
+    # This node does not registerr itself or fetch registry
     register-with-eureka: false
     fetch-registry: false
     service-url:
